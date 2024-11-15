@@ -34,9 +34,11 @@ df = sns.load_dataset("tips")
 df
 ```
 <img width="327" alt="image" src="https://github.com/KayyuruTharani/EXNO-6-DS/assets/142209319/569a2d14-ab51-42b8-a283-e820efcaf30e">
+
 ```
 sns.lineplot(x="total_bill",y="tip", data=df, hue="sex", linestyle='solid', legend="auto")
 ```
+
 <img width="365" alt="image" src="https://github.com/KayyuruTharani/EXNO-6-DS/assets/142209319/e80baaaf-329c-40c4-b352-8ff17b0fc5c0">
 
 ```
